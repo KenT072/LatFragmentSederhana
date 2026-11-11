@@ -25,6 +25,13 @@ class MainActivity : AppCompatActivity() {
             replaceFragment(fSatu())
         }
 
+        btnFragmentsatu.setOnClickListener {
+            replaceFragment(fSatu())
+        }
+
+        btnFragmentdua.setOnClickListener {
+            replaceFragment(fDua())
+        }
     }
     private fun replaceFragment(fragment: Fragment){
         val fragmentManager = supportFragmentManager
