@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -40,7 +41,7 @@ class fDua : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val _tvHasil = view.findViewById<Button>(R.id.btnFragmentDua)
+        val _tvHasil = view.findViewById<TextView>(R.id.tvHasil)
 
         var namaDiterima = ""
         var alamatDiterima = ""
